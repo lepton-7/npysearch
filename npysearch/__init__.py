@@ -141,7 +141,7 @@ def blast(
                    stored in the working directory
     """
 
-    startTime = strftime("%Y-%m-%d-%H:%M:%S", localtime())
+    startTime = strftime("%Y-%m-%d-%H_%M_%S", localtime())
 
     # Checking what form the query was input in
     # str for path to fasta file and dict for sequences
